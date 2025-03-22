@@ -3,15 +3,14 @@
 body {
   font-family: montserrat;
   background: #222322;
-  padding-bottom:10px;
+  padding-bottom: 10px;
 }
 
 section {
-    margin:auto;
+  margin: auto;
   color: white;
   text-align: center;
-  width:97%;
-
+  width: 97%;
 }
 .title {
   font-size: 3rem;
@@ -34,29 +33,29 @@ section {
   border-radius: 10px;
   box-shadow: -2px 2px white;
   overflow: hidden;
-  width:100%;
-  position:relative;
+  width: 100%;
+  position: relative;
 }
 
-.details{
-position:absolute;
-z-index:10;
-padding:20px;
-text-align:left;
+.details {
+  position: absolute;
+  z-index: 10;
+  padding: 20px;
+  text-align: left;
 }
 
-.details h2{
-font-weight:500;
-margin-bottom:-1px;
+.details h2 {
+  font-weight: 500;
+  margin-bottom: -1px;
 }
-.details h3{
+.details h3 {
   color: #ffcc02;
-  font-weight:500;
-  font-size:1rem;
+  font-weight: 500;
+  font-size: 1rem;
 }
-.details p{
-  margin-top:-5px;
-  font-size:1.1rem
+.details p {
+  margin-top: -5px;
+  font-size: 1.1rem;
 }
 /* .card-1 {
   background: url("https://images.stockcake.com/public/1/0/8/10820934-eacb-42e0-b97d-9a6e3046ceab_large/twilight-trucking-route-stockcake.jpg");
@@ -71,19 +70,26 @@ margin-bottom:-1px;
   opacity: 0.5;
 }
 
-button{
-  margin-top:30px;
-  padding:15px 40px;
-  font-size:1.1rem;
+button {
+  margin-top: 30px;
+  padding: 15px 40px;
+  font-size: 1.1rem;
   letter-spacing: 1.5px;
-  border-radius:50px;
-  background:#ffcc02;
-  font-weight:200;
-  outline:none;
-  border:none;
+  border-radius: 50px;
+  background: #ffcc02;
+  font-weight: 200;
+  outline: none;
+  border: none;
 }
 
-button i{
-  font-size:0.8rem;
-  font-weight:bold;
+button i {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+@media (width < 1200px) {
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+    gap:25px;
+  }
 }
