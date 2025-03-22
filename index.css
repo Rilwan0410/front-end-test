@@ -47,6 +47,7 @@ section {
 .details h2 {
   font-weight: 500;
   margin-bottom: -1px;
+  font-size: 1.5em;
 }
 .details h3 {
   color: #ffcc02;
@@ -57,13 +58,6 @@ section {
   margin-top: -5px;
   font-size: 1.1rem;
 }
-/* .card-1 {
-  background: url("https://images.stockcake.com/public/1/0/8/10820934-eacb-42e0-b97d-9a6e3046ceab_large/twilight-trucking-route-stockcake.jpg");
-  background-position: center;
-  background-size: cover;
-
-
-} */
 .card img {
   width: 100%;
   height: 100%;
@@ -90,6 +84,19 @@ button i {
 @media (width < 1200px) {
   .cards {
     grid-template-columns: repeat(1, 1fr);
-    gap:25px;
+    gap: 25px;
   }
+  .details h2 {
+    font-size: 1.3rem;
+    margin-bottom:30px;
+  }
+  .details h3 {
+    font-size: 0.8rem;
+  }
+  .details p {
+    font-size: 0.9rem;
+  }
+ button{
+  margin-top:560px;
+ }
 }
